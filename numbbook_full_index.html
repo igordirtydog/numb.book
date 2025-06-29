@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <title>Igor Šajnović - Roman numb</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid red;
+        }
+        header h1 {
+            color: red;
+            margin: 0;
+        }
+        header h2 {
+            color: red;
+            margin: 5px 0 0 0;
+        }
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #333;
+        }
+        h3 {
+            color: #00bfff;
+        }
+        .kontakt-forma input, .kontakt-forma textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .kontakt-forma button {
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Igor Šajnović</h1>
+        <h2>Roman numb</h2>
+    </header>
+
+    <section id="opis-djela">
+        <h3>📘 Opis djela</h3>
+        <p>"numb" (ili "proces počinje") je autobiografsko, sirovo i brutalno iskreno književno djelo koje razdire iluzije i izlaže stvarnost bez filtera. Ovo nije priča o herojstvu. Nije ni bajka o iskupljenju. Ovo je iskaz čovjeka koji je preživio — i odlučio ne šutjeti.</p>
+        <p>Roman se sastoji od fragmenata stvarnog života, unutarnjih monologa, sjećanja i snova, u kojima su nasilje, droga, siromaštvo i duševna borba stalni suputnici. Ne štedi ni sebe ni čitatelja, ali svakom rečenicom pokušava doći bliže istini – makar bila ružna, prljava, ili potpuno neizdrživa.</p>
+        <p>Ovo nije knjiga koju se “konzumira” – ovo je knjiga koja se proživljava. Ako te ne uzdrma, onda nisi čitao pažljivo.</p>
+    </section>
+
+    <section id="o-autoru">
+        <h3>✍️ O autoru</h3>
+        <p>Autor nije školovani književnik. Nema diplomu, ali ima priču. Ne piše jer hoće — piše jer mora. Odrastao u sistemu koji je slomio više djece nego što je spasio, preživio udomiteljstva, domove, zatvore, pogrešne ljubavi i vlastite sablasti.</p>
+        <p>Pisanje mu nije terapija. Pisanje je njegov dokaz da je još živ.</p>
+        <p>Ne želi laskanje. Ne traži sažaljenje. Ne skriva svoje poraze, ali ni ono malo nade koja uporno odbija nestati. Sve što ovdje pročitaš napisao je sam — u boli, u bijesu, u lucidnim trenucima istine.</p>
+        <p>Ako mu nešto ne valja, reci mu. Ako ti nešto znači, još bolje. Jer ovdje nitko ne glumi.</p>
+    </section>
+
+    <section id="koncentrat">
+        <h3>🧠 NUMB - koncentrat</h3>
+        <p>Kad bi ova, ili bilo koja noć imala zvuk koji svi čuju, to bi bio E-mol.<br>
+        To je zvuk koji često čujem — najčešće noću.<br>
+        Najčešće sam tada — polomljen i istrošen — u tim trenucima nevidljiv čak i samome sebi.<br>
+        Možda ga i ti čuješ. Možda ga ne raspoznaješ u žamoru svega drugog, ali ne brini — ako i kada bude vrijeme, prepoznat ćeš ga.<br>
+        I koliko god ti se ne bude sviđao, gubit ćeš se u njemu kao u čistom prljavom heroinu — u bunilu koje ne mari za tebe, koje si sam stvorio.<br>
+        Tjera te da se valjaš zadovoljno u svojoj prljavštini koje nisi ni svjestan. Metafizički lavirint u kojem ti je udobno, ali si svjestan da je konstruiran samo zato da u njemu tražiš izlaz. Da te muči dajući ti lažnu nadu spasenja i...</p>
+    </section>
+
+    <section id="kontakt">
+        <h3>📩 Kontakt</h3>
+        <form name="kontakt" method="POST" data-netlify="true" class="kontakt-forma">
+            <input type="hidden" name="form-name" value="kontakt">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Poruka:</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            <button type="submit">Pošalji</button>
+        </form>
+    </section>
+
+</body>
+</html>
